@@ -117,7 +117,7 @@ const RegistrationForm = ({ profile, heading = "Form" }) => {
                 <div className="left">
                     <div>
                         <label htmlFor="username">Username:</label>
-                        <input type="text" name="username" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="no spaced please" required />
+                        <input type="text" name="username" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="no spaces please" required />
                     </div>
                     <div>
                         <label htmlFor="first_name">First name:</label>
