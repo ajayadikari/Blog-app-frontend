@@ -1,0 +1,77 @@
+.parent{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.search-bar {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.search-bar i {
+    font-size: 50px;
+    color: var(--light-blue);
+    margin: 0 10px;
+    transition: all 0.6s ease;
+}
+
+
+.search-bar input {
+    width: 0;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    border: none;
+    position: relative;
+}
+
+.active.search-bar {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: var(--light-pink);
+    height: 40px;
+}
+
+
+.active {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.active i {
+    font-size: 30px;
+}
+
+.active input {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: large;
+    border: none;
+    outline: none;
+}
+
+
+.bars{
+    position: absolute;
+    width: 80%;
+    top: 100%;
+    left: 19%;
+}
+

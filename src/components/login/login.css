@@ -1,0 +1,14 @@
+.login-container{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50vh;
+}
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+}
+

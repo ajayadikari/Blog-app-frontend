@@ -1,0 +1,17 @@
+.rightnav {
+    position: fixed;
+    right: 0px;
+    right: 0;
+    height: 40px;
+    background-color: var(--light-blue);
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0 0 0px 5px;
+    box-shadow: 0px 1px 10px 1px rgb(161, 160, 160);
+    padding: 0px 20px;
+    border-left: 2px solid gold;
+    border-bottom: 2px solid gold;
+    z-index: 1;
+}

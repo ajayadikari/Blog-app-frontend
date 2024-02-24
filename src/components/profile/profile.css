@@ -1,0 +1,39 @@
+.profile{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px 1px rgb(200, 193, 193);
+    background-color: white;
+}
+.profile .upper{
+    /* border-radius: 50%; */
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .upper img{
+    height: 100%;
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 1px 0px 10px 1px rgb(196, 191, 191);
+}
+
+
+
+.profile .lower div{
+    display: flex;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.profile .lower div label{
+    font-weight: 600;
+}

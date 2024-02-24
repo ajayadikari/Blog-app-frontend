@@ -1,0 +1,33 @@
+.dashboard{
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.leftOne{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.leftOne p{
+    margin: 10px 0;
+}
+
+.leftOne p span{
+    color: red;
+    cursor: pointer;
+}
+
+.leftOne p span:hover{
+    color: blue;
+}

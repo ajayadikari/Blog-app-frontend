@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Nunito+Sans:opsz,wght@6..12,200&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Ubuntu:wght@500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +15,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--light-pink);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* light theme */
+:root{
+  --light-blue: #2F3C7E;
+  --light-pink: #FBEAEB;
+  --gray: rgb(161, 160, 160);
 }
