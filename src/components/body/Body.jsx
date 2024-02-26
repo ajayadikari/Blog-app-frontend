@@ -1,12 +1,11 @@
 import FilterBar from "../filterbar/FilterBar"
 import CardContainer from "../cardContainer/CardContainer"
 import './body.css'
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 import { setUser } from "../../redux/authSlice"
 import { useDispatch, useSelector } from "react-redux"
 import { jwtDecode } from "jwt-decode";
 import { setCurrentIcon } from "../../redux/sideBarSlice"
-import { Navigate } from "react-router-dom"
 
 
 const Body = ({ author=false }) => {
